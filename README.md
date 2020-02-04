@@ -6,4 +6,4 @@ How to install
 2. git clone https://github.com/Bangden/Auto-Installer-LAMP-Wordpress-Ubuntu-18.04.git
 3. cd Auto-*
 4. chmod +x install.sh
-5 ./install.sh
+5. /install.sh
