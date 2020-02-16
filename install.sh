@@ -7,7 +7,14 @@ echo "========================================================="
 echo "                          ||||||                         "
 echo "               Script Copyright by BangDen               "
 echo "========================================================="
+echo "\n"
 sleep 5
+# Hanya berjalan di Ubuntu
+ubuntu_version=$(lsb_release -rs)
+if [[ "${ubuntu_version}" != "16.04" && "${ubuntu_version}" != "18.04" ]]; then
+    echo "Maaf program ini hanya berjalan di OS Ubuntu 16.04 atau 18.04" > /dev/stderr
+    exit 1
+fi
 sudo apt-get install -y unzip
 sleep 0.5
 sudo apt-get install -y nano
