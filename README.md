@@ -1,5 +1,5 @@
-# Auto-Installer-LAMP-Wordpress-Ubuntu-18.04
-Script auto installer lamp and wordpress for ubuntu 18.04 server
+# Auto-Installer-LAMP-Wordpress-Ubuntu
+Script auto installer lamp and wordpress for ubuntu server
 
 How to install
 1. cd /root/
